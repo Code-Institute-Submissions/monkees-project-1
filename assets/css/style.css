@@ -1,1 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Ubuntu:300,400,500,700');
+/*-------------Initial to override bootstrap----*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------Special-------------*/
+.uppercase{
+    text-transform: uppercase;
+}
+.text-center{
+    text-align: center;
+}
+.inline-block{
+    display: inline-block;
+}
+/*-----------------Colors------------*/
+.bg-home{
+background-color: red;
+}
+.bg-news{
+    background-color: red;
+}
+.bg-gallery{
+    background-color: red;
+}
+.bg-hireus{
+    background-color: red;
+}
+/*--------------Heading--------------*/
+.logo{
+    background: url('/assets/images/monkees.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+.menu{
+
+}
+.menuitem{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    min-height: 120px;
+}
+
+/*----------------Main content--------------*/
+/*----------------Footer--------------*/
+/*---------------Media queries------------*/
