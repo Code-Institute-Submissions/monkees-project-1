@@ -3,6 +3,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #cbd4c2;
 }
 
 /*----------------Special-------------*/
@@ -16,35 +17,92 @@ body{
     display: inline-block;
 }
 /*-----------------Colors------------*/
+.bg-title{
+    
+}
 .bg-home{
-background-color: red;
+    background-color: #2364aa;
+    
 }
 .bg-news{
-    background-color: red;
+    background-color: #50514f;
 }
 .bg-gallery{
-    background-color: red;
+    background-color: #fec601;
 }
 .bg-hireus{
-    background-color: red;
+    background-color: #ea7317;
 }
+
 /*--------------Heading--------------*/
-.logo{
-    background: url('/assets/images/monkees.jpg');
+header{
+    margin: 0;
+}
+.heading{
+
+    background-image: url("../images/monkees2.png");/*from music fanart fanart.tv*/
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    
+
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
-.menu{
+.logo{
+    background: url("../images/monkees.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+    border-radius: 15px 50px 30px;
+    height: 120px;
+}
+
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+    height: 120px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
 
 }
-.menuitem{
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    min-height: 120px;
+.menuitem a i{
+    padding-top: 40px;
+    display: block;
+    font-size: 22px;
+    padding-bottom: 10px;
 }
+
 
 /*----------------Main content--------------*/
 /*----------------Footer--------------*/
 /*---------------Media queries------------*/
+
+@media (min-width: 767px){
+    .heading{
+        min-height: 200px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        width: 100%;
+    }
+    
+}
