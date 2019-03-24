@@ -1,66 +1,79 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster+Two:400,700|Roboto:300,400,500,700,900|Ubuntu');@import url('https://fonts.googleapis.com/css?family=Lobster|Permanent+Marker|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:400,700|Roboto:300,400,500,700,900|Ubuntu');
+
 /*-------------Initial to override bootstrap----*/
-body{
+body {
     margin: 0;
     padding: 0;
-    
+
 }
-section{
+
+section {
     margin: 0;
     padding: 0;
 }
 
 /*----------------Special-------------*/
-.uppercase{
+.uppercase {
     text-transform: uppercase;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.inline-block{
+
+.inline-block {
     display: inline-block;
 }
+
 /*-----------------Colors------------*/
 
-.bg-home{
+.bg-home {
     background-color: #2364aa;
-    
+
 }
-.bg-news{
+
+.bg-news {
     background-color: #50514f;
 }
-.bg-gallery{
+
+.bg-gallery {
     background-color: #fec601;
 }
-.bg-hireus{
+
+.bg-hireus {
     background-color: #ea7317;
 }
-footer{
+
+footer {
     background-color: #cbd4c2;
 }
+
 /*.bg-main{
     background-color: #e5f4e3;
 }*/
 /*--------------Heading--------------*/
-header{
+header {
     margin: 0;
     padding: 0;
     background-color: #cbd4c2;
     height: fit-content;
 }
-.heading{
 
-    background-image: url("../images/monkees2.png");/*from music fanart fanart.tv*/
-    
+.heading {
+
+    background-image: url("../images/monkees2.png");
+    /*from music fanart fanart.tv*/
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
-    
+
 }
-.logo{
+
+.logo {
     background: url("../images/monkees.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -70,6 +83,7 @@ header{
     -moz-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
 }
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -85,107 +99,123 @@ header{
     height: 120px;
 }
 
-.menuitem a{
+.menuitem a {
     width: 100%;
     text-decoration: none;
     height: 120px;
     color: #f4f4f4;
 
 }
-.menuitem a i{
+
+.menuitem a i {
     padding-top: 30px;
     display: block;
     font-size: 30px;
-    
+
 }
-.hvr-radial-out{
+
+.hvr-radial-out {
     border-radius: 15px 50px 30px;
 }
-.menuitem span{
+
+.menuitem span {
     font-size: 30px;
     font-family: "Lobster", sans-serif;
 }
-ul{
+
+ul {
     margin-bottom: 0;
 }
+
 /*----------------Main content--------------*/
-.maincontainer{
+.maincontainer {
     margin: 0;
     min-height: fit-content;
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-weight: 300;
     font-size: 30px;
-    
+
     line-height: 2;
     margin-left: 3px;
     margin-right: 3px;
-    
+
 
 }
-.maincontainer a{
+
+.maincontainer a {
     text-decoration: none;
 }
-.maincontainer h1{
+
+.maincontainer h1 {
     padding-top: 60px;
     padding-bottom: 30px;
 }
 
 /*----------------Footer--------------*/
-footer{
-width: 100%;
-padding-bottom: 30px;
+footer {
+    width: 100%;
+    padding-bottom: 30px;
 }
-.footercontainer{
-   height: fit-content;
-   width: 100%;
-   margin-left: 3px;
-   margin-right:3px;
-   margin: 0;
-   font-family: "Ubuntu", sans-serif;
+
+.footercontainer {
+    height: fit-content;
+    width: 100%;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
 }
-.footer-h4{
+
+.footer-h4 {
     text-align: center;
     color: #000;
     padding-top: 60px;
     line-height: 1.6;
-    
+
 }
-.footer-h4 a{
+
+.footer-h4 a {
     text-decoration: none;
     color: #000;
-    
+
 }
-.social{
+
+.social {
     margin: 0;
     font-size: 0;
     padding-top: 60px;
 }
-.social a i{
-   font-size: 60px;
-   color: #50514f;
-   
-   padding-bottom: 20px;
-   padding-left: 10px;
-   text-align: center;
+
+.social a i {
+    font-size: 60px;
+    color: #50514f;
+
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-align: center;
 }
-.social-link-li{
+
+.social-link-li {
     list-style: none;
     padding-left: 15px;
 }
+
 /*---------------Media queries------------*/
 
-@media (min-width: 767px){
-    .heading{
+@media (min-width: 767px) {
+    .heading {
         min-height: 200px;
         padding-top: 40px;
         width: 100%;
     }
-    .maincontainer{
+
+    .maincontainer {
         min-height: 450px;
     }
-    .social a i{
+
+    .social a i {
         padding-left: 30px;
     }
-    
+
 }
