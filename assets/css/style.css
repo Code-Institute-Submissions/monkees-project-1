@@ -117,6 +117,8 @@ ul{
     font-size: 30px;
     padding-top: 30px;
     line-height: 2;
+    margin-left: 3px;
+    margin-right: 3px;
     
 
 }
@@ -127,6 +129,9 @@ ul{
 /*----------------Footer--------------*/
 .footer{
    height: 200px;
+   margin-left: 3px;
+   margin-right:3px;
+   margin: 0;
 }
 .footer-h4{
     text-align: center;
@@ -140,15 +145,22 @@ ul{
     color: #000;
     
 }
+.social{
+    font-size: 0;
+}
 .social a i{
    font-size: 40px;
    color: #50514f;
    padding-top: 80px;
    padding-left: 50px;
+   padding-bottom: 20px;
    text-align: center;
 }
 .social-link-li{
     list-style: none;
+}
+.block{
+    padding: 1px;
 }
 /*---------------Media queries------------*/
 
