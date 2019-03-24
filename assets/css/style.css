@@ -181,6 +181,8 @@ ul {
     margin: 0;
     padding:12px;
     
+}.location-list{
+    padding-bottom: 30px;
 }
 /*----------------subsection Gallery content------*/
 .gallery-container{
