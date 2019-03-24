@@ -182,7 +182,28 @@ ul {
     padding:12px;
     
 }
-
+/*----------------subsection Gallery content------*/
+.gallery-container{
+    margin: 0;
+    padding: 0;
+}
+.video{
+    width: fit-content;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+video {
+    width: 100%;
+    height: auto;
+  }
+  img{
+      width: 100%;
+      height: auto;
+  }
+  .gallery-container{
+      font-family: "Roboto", sans-serif;
+  }
 /*----------------Footer--------------*/
 footer {
     width: 100%;
