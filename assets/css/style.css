@@ -233,6 +233,8 @@ video {
  form{
      padding-bottom: 20px;
  }
+ /*----------------Modal--------------*/
+
 /*----------------Footer--------------*/
 footer {
     width: 100%;
@@ -318,7 +320,25 @@ footer {
     .col-md-5{
         max-width: 30%;
     }
-
+    .form-group{
+        margin: 0 auto; 
+        width: 50%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+         
+     }
+     .form-group #email-area{
+        margin: 0 auto; 
+        width: 35%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .form-group #subject-area{
+        margin: 0 auto; 
+        width: 35%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 }
 @media (min-width: 736px) and (max-width:767px){
     .video{
