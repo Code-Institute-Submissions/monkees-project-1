@@ -123,6 +123,9 @@ ul{
     
 
 }
+.maincontainer a{
+    text-decoration: none;
+}
 .maincontainer h1{
     padding-top: 60px;
     padding-bottom: 30px;
@@ -131,7 +134,7 @@ ul{
 /*----------------Footer--------------*/
 footer{
 width: 100%;
-padding-bottom: 90px;
+padding-bottom: 30px;
 }
 .footercontainer{
    height: fit-content;
@@ -155,17 +158,20 @@ padding-bottom: 90px;
 }
 .social{
     margin: 0;
-    text-align: relative;
+    font-size: 0;
+    padding-top: 60px;
 }
 .social a i{
    font-size: 60px;
    color: #50514f;
-   padding-top: 60px;
+   
    padding-bottom: 20px;
-   text-align: relative;
+   padding-left: 10px;
+   text-align: center;
 }
 .social-link-li{
     list-style: none;
+    padding-left: 15px;
 }
 /*---------------Media queries------------*/
 
@@ -177,6 +183,9 @@ padding-bottom: 90px;
     }
     .maincontainer{
         min-height: 450px;
+    }
+    .social a i{
+        padding-left: 30px;
     }
     
 }
