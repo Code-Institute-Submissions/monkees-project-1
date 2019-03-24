@@ -91,7 +91,9 @@ header{
     font-size: 22px;
     padding-bottom: 10px;
 }
-
+.hvr-radial-out{
+    border-radius: 15px 50px 30px;
+}
 
 /*----------------Main content--------------*/
 /*----------------Footer--------------*/
