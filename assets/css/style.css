@@ -35,7 +35,7 @@ section{
 .bg-hireus{
     background-color: #ea7317;
 }
-.bg-footer{
+footer{
     background-color: #cbd4c2;
 }
 /*.bg-main{
@@ -110,14 +110,14 @@ ul{
 /*----------------Main content--------------*/
 .maincontainer{
     margin: 0;
-    padding: 0;
-    height:400px;
+    min-height: fit-content;
     font-family: "Lobster", sans-serif;
     text-align: center;
     font-weight: 100;
     font-size: 30px;
     padding-top: 30px;
-    line-height: 1.6;
+    line-height: 2;
+    
 
 }
 .maincontainer h1{
@@ -129,16 +129,26 @@ ul{
    height: 200px;
 }
 .footer-h4{
-    text-align: left;
-    color: #ea7317;
+    text-align: center;
+    color: #000;
     padding-top: 50px;
     line-height: 1.6;
     
 }
 .footer a{
     text-decoration: none;
-    color: #ea7317;
+    color: #000;
     
+}
+.social a i{
+   font-size: 40px;
+   color: #50514f;
+   padding-top: 80px;
+   padding-left: 50px;
+   text-align: center;
+}
+.social-link-li{
+    list-style: none;
 }
 /*---------------Media queries------------*/
 
@@ -147,6 +157,9 @@ ul{
         min-height: 200px;
         padding-top: 40px;
         width: 100%;
+    }
+    .maincontainer{
+        min-height: 420px;
     }
     
 }
