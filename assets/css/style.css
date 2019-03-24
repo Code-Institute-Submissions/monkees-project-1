@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Permanent+Marker|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:400,700|Roboto:300,400,500,700,900|Ubuntu');@import url('https://fonts.googleapis.com/css?family=Lobster|Permanent+Marker|Ubuntu');
 /*-------------Initial to override bootstrap----*/
 body{
     margin: 0;
@@ -58,6 +58,7 @@ header{
     transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
+    
 }
 .logo{
     background: url("../images/monkees.jpg");
@@ -101,8 +102,8 @@ header{
     border-radius: 15px 50px 30px;
 }
 .menuitem span{
-    font-size: 25px;
-    font-family: "Permanent Marker", sans-serif;
+    font-size: 30px;
+    font-family: "Lobster", sans-serif;
 }
 ul{
     margin-bottom: 0;
@@ -111,11 +112,11 @@ ul{
 .maincontainer{
     margin: 0;
     min-height: fit-content;
-    font-family: "Lobster", sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: center;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 30px;
-    padding-top: 30px;
+    
     line-height: 2;
     margin-left: 3px;
     margin-right: 3px;
@@ -123,38 +124,46 @@ ul{
 
 }
 .maincontainer h1{
-    padding-bottom: 20px;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 /*----------------Footer--------------*/
-.footer{
-   height: 200px;
+footer{
+width: 100%;
+padding-bottom: 90px;
+}
+.footercontainer{
+   height: fit-content;
+   width: 100%;
    margin-left: 3px;
    margin-right:3px;
    margin: 0;
+   font-family: "Ubuntu", sans-serif;
 }
 .footer-h4{
     text-align: center;
     color: #000;
-    padding-top: 50px;
+    padding-top: 60px;
     line-height: 1.6;
     
 }
-.footer a{
+.footer-h4 a{
     text-decoration: none;
     color: #000;
     
 }
 .social{
-    font-size: 0;
+    margin: 0;
+    text-align: relative;
 }
 .social a i{
-   font-size: 40px;
+   font-size: 60px;
    color: #50514f;
-   padding-top: 80px;
+   padding-top: 60px;
    padding-left: 50px;
    padding-bottom: 20px;
-   text-align: center;
+   text-align: relative;
 }
 .social-link-li{
     list-style: none;
@@ -162,6 +171,7 @@ ul{
 .block{
     padding: 1px;
 }
+
 /*---------------Media queries------------*/
 
 @media (min-width: 767px){
@@ -171,7 +181,7 @@ ul{
         width: 100%;
     }
     .maincontainer{
-        min-height: 420px;
+        min-height: 450px;
     }
     
 }
