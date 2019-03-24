@@ -3,7 +3,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #cbd4c2;
+    
+}
+section{
+    margin: 0;
+    padding: 0;
 }
 
 /*----------------Special-------------*/
@@ -17,9 +21,7 @@ body{
     display: inline-block;
 }
 /*-----------------Colors------------*/
-.bg-title{
-    
-}
+
 .bg-home{
     background-color: #2364aa;
     
@@ -33,10 +35,18 @@ body{
 .bg-hireus{
     background-color: #ea7317;
 }
-
+.bg-footer{
+    background-color: #cbd4c2;
+}
+.bg-main{
+    background-color: #e5f4e3;
+}
 /*--------------Heading--------------*/
 header{
     margin: 0;
+    padding: 0;
+    background-color: #cbd4c2;
+    height: fit-content;
 }
 .heading{
 
@@ -87,7 +97,7 @@ header{
     padding-top: 30px;
     display: block;
     font-size: 30px;
-    padding-bottom: 10px;
+    
 }
 .hvr-radial-out{
     border-radius: 15px 50px 30px;
@@ -96,15 +106,24 @@ header{
     font-size: 25px;
     font-family: "Permanent Marker", sans-serif;
 }
-
+ul{
+    margin-bottom: 0;
+}
 /*----------------Main content--------------*/
+.maincontainer{
+    margin: 0;
+    padding: 0;
+    height:300px;
+}
 /*----------------Footer--------------*/
+footer{
+   
+}
 /*---------------Media queries------------*/
 
 @media (min-width: 767px){
     .heading{
         min-height: 200px;
-        padding-bottom: 40px;
         padding-top: 40px;
         width: 100%;
     }
