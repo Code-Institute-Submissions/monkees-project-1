@@ -184,26 +184,33 @@ ul {
 }
 /*----------------subsection Gallery content------*/
 .gallery-container{
-    margin: 0;
+   
     padding: 0;
+    margin: 0;
+    min-height: fit-content;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    padding-bottom: 15px;
+    line-height: 2;
 }
 .video{
     width: fit-content;
     height: auto;
     margin: 0;
-    padding: 0;
+    
+
 }
 video {
     width: 100%;
     height: auto;
-  }
+}
   img{
       width: 100%;
       height: auto;
-  }
-  .gallery-container{
-      font-family: "Roboto", sans-serif;
-  }
+}
+ /*----------------subsection Hire Us content------*/ 
 /*----------------Footer--------------*/
 footer {
     width: 100%;
@@ -269,5 +276,34 @@ footer {
     .social a i {
         padding-left: 30px;
     }
+     video{
+        min-width: 600px;
+            top: 0;
+            left: 0;
+   
+    }
+    .control{
+        padding-left: 0;
+        text-align: left;
+        margin-right: 15px;
+    }
+    .gallery-container{
+        text-align: left;
+        padding-top: 10px;
+        padding-left:15px;
+        margin: 0;
+    }
+    .col-md-5{
+        max-width: 30%;
+    }
 
+}
+@media (min-width: 736px) and (max-width:767px){
+    .video{
+        width: fit-content;
+        height: auto;
+        margin: 0;
+        padding-left: 30px;
+    
+    }
 }
