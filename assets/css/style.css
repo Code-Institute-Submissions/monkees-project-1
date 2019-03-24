@@ -47,7 +47,9 @@ section {
 footer {
     background-color: #cbd4c2;
 }
-
+.text-news{
+    color: #f4f4f4;
+}
 /*.bg-main{
     background-color: #e5f4e3;
 }*/
@@ -145,11 +147,40 @@ ul {
 
 .maincontainer a {
     text-decoration: none;
+    color: #f4f4f4;
 }
 
 .maincontainer h1 {
     padding-top: 60px;
     padding-bottom: 30px;
+}
+/*----------------subsection News content------*/
+.location-list{
+    margin: 0;
+    padding: 0;
+    
+}
+.location-list li{
+    list-style: none;
+    position: center;
+    
+}
+.location{
+    padding-top: 10px;
+}
+.progress{
+    font-size: 28px;
+    text-decoration: none;
+    background-color: #50514f;
+    height: 35px;
+    
+    
+}
+.progress-bar{
+    text-align: left;
+    margin: 0;
+    padding:12px;
+    
 }
 
 /*----------------Footer--------------*/
