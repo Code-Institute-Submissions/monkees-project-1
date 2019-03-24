@@ -38,9 +38,9 @@ section{
 .bg-footer{
     background-color: #cbd4c2;
 }
-.bg-main{
+/*.bg-main{
     background-color: #e5f4e3;
-}
+}*/
 /*--------------Heading--------------*/
 header{
     margin: 0;
@@ -55,11 +55,9 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
 }
 .logo{
     background: url("../images/monkees.jpg");
@@ -67,9 +65,9 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 320px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
 }
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -90,7 +88,7 @@ header{
     width: 100%;
     text-decoration: none;
     height: 120px;
-    color: #fafafa;
+    color: #f4f4f4;
 
 }
 .menuitem a i{
@@ -113,11 +111,34 @@ ul{
 .maincontainer{
     margin: 0;
     padding: 0;
-    height:300px;
+    height:400px;
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    padding-top: 30px;
+    line-height: 1.6;
+
 }
+.maincontainer h1{
+    padding-bottom: 20px;
+}
+
 /*----------------Footer--------------*/
-footer{
-   
+.footer{
+   height: 200px;
+}
+.footer-h4{
+    text-align: left;
+    color: #ea7317;
+    padding-top: 50px;
+    line-height: 1.6;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: #ea7317;
+    
 }
 /*---------------Media queries------------*/
 
