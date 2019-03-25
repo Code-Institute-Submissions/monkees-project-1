@@ -192,7 +192,7 @@ ul {
 /*----------------subsection Gallery content------*/
 .gallery-container{
    
-    padding-left: 0;
+    padding: 0;
     margin: 0;
     min-height: fit-content;
     font-family: "Roboto", sans-serif;
@@ -309,8 +309,14 @@ footer {
 
     .maincontainer {
         min-height: 450px;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
     }
-
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
     .social a i {
         padding-left: 30px;
     }
