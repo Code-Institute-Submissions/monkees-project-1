@@ -256,9 +256,12 @@ audio{
 
 }
  /*----------------Modal--------------*/
-.modal-title{
-    text-align: center;
+.modal-footer{
+    padding: 10px;
+    margin: 0;
 }
+
+
 
 /*----------------Footer--------------*/
 footer {
