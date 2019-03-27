@@ -8,7 +8,7 @@ The website built for the fans of The Monkees band. Fans can view their photos v
 
 The website is really straightforward, the user can find everything in one click.
 
-#User stories:
+##User stories:
 
 ## User A wants to view the band's videos. 
  - Landing on the home page, A will see the gallery button, and on the gallery page will find the videos.
