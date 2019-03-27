@@ -71,12 +71,16 @@ Every pages footer contains the social media links with their logo, so B needs t
     To load icons used on navbar and footer.
 - [Bootstrap](https://getbootstrap.com/)
     Component library, eg grid system.
+- [Jquery](https://jquery.com/)
 - [Javascript](https://www.javascript.com/)
     Used some code for the validation method at the form.
 - [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/)
     For testing, to fix bugs.
-[Mozilla Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
+- [Mozilla Firefox Developer Tools](https://developer.mozilla.org/en-US/docs/Tools)
     For testing, to fix bugs.
+- [VS Code](https://code.visualstudio.com/)
+- Bash
+- [GitHub](https://github.com/)
 
 ##Deployment
 
@@ -84,14 +88,21 @@ Website was coded in VSCode IDE, a local GIT directory was used for version cont
 
 ##Testing
 
-Each page was tested locally and on GITHUB pages using Chrome developer tools, testing its functionality as well as look and feel (in landscape and portrait mode) on Galaxy S5, Nexus 5S, Nexus 6P, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPad, iPad Pro and responsive desktop. All links were tested along with music tracks audio controls and video player. The modal join fan club form and the hire us form was tested locally and remotely.
-#Credits
+Each page was tested locally and on GITHUB pages using Chrome and Mozilla developer tools, testing its functionality as well as look and feel (in landscape and portrait mode) on Nexus 5S, Nexus 6P, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPad, iPad Pro, Galaxy Note 8, Mi Mix 2 and responsive desktop, also on Ms Edge, Firefox, Opera, and Chrome platforms. All links were tested along with music tracks audio controls and video player. 
+The modal join fan club form and the hire us form was tested locally and remotely.
+
+##Credits
 Work based on other code
 
-Only the modal fan club form code was re-used from the previous Whiskey Drop exercise. I modified its content and changed some of the code within it to reflect semantically what it was being used for. I also changed its action to point to a fan club thankyou page to confirm their action and increase user experience.
-What changed after user design experience (UDX) phase
+I chose to build the offered Monkees project, had inspiration from the Resume project for the layout.
 
-I had planned to put the video on the gallery page however after discovering the video wasn't one taken from their TV series (which I assumed to be the case) but rather a music video I placed the video on the music page.
-	
+For the form validation I used a [javascript code](https://github.com/twbs/bootstrap/issues/26271) shared on github and stackoveflow.
+
+For the modal I used the bootstrap modal edited version.
+
+##What changed after user design experience (UDX) phase
+
+
+ 	
 	
 	
