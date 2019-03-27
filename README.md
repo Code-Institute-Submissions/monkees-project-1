@@ -102,7 +102,7 @@ After uploading the files to GITHUB repositories I choosed a master branch to be
 Each page was tested locally and on GITHUB pages using Chrome and Mozilla developer tools, testing its functionality as well as look and feel (in landscape and portrait mode) on Nexus 5S, Nexus 6P, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPad, iPad Pro, Galaxy Note 8, Mi Mix 2 and responsive desktop, also on Ms Edge, Firefox, Opera, and Chrome platforms. All links were tested along with music tracks audio controls and video player. 
 The modal join fan club form and the hire us form was tested locally and remotely.
 
-Got positive feedback from friends
+Got positive feedback from friends and other students on slack.
 
 ## Credits
 Work based on other code
