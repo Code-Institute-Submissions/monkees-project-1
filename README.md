@@ -17,7 +17,7 @@ The website is really straightforward, the user can find everything in one click
 Every pages footer contains the social media links with their logo, so B needs to click on the Twitter link and it will navigate to the band's Twitter page.
 
 ## User C wants to sign up to the band's newsletter.
- - Every page contains the link at the footer of the page, so C needs to click on the link and it will open a modal where C needs to type in his/her name and email address to sign up, when it is done, C needs to click on the sign up button and then will gets a message to confirm the sign up was successfull.
+ - Every page contains the link at the footer of the page, so C needs to click on the link and it will open a modal where C needs to type in his/her name and email address to sign up, when it is done, C needs to click on the sign up button and then will gets a message to confirm the sign up was successful.
 
 ## User D wants to hire the band.
  - Every page contains two links to the hire us form page. One located on the footer next to the sign up link, the other is on the navbar hire us button.
@@ -32,7 +32,7 @@ Every pages footer contains the social media links with their logo, so B needs t
 # Features
 
 ## Header:
-- Picture of the band works as a link to the Home page The 'The Monkees' logo comes up only on tablets or desktops( above 767px width). Navbar with hover on effects and navigation buttons with different colour and icons.
+- Picture of the band works as a link to the Home page The 'The Monkees' logo comes up only on tablets or desktops (above 767px width). Navbar with hover on effects and navigation buttons with different colour and icons.
    
 ## Main content:
 
@@ -86,17 +86,16 @@ Every pages footer contains the social media links with their logo, so B needs t
 
 Website was coded in VSCode IDE, with a local folder. On Github I created a new repository called monkees-project. 
 to deploy the files to the repository i used the following bash commands:
-echo "# monkees-project" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/varroz56/monkees-project.io
-git push -u origin master
+ - echo "# monkees-project" >> README.md
+ - git init
+ - git add README.md
+ - git commit -m "first commit"
+ - git remote add origin https://github.com/varroz56/monkees-project.io
+ - git push -u origin master
 
 After uploading the files to GITHUB repositories I choosed a master branch to be online from GITHUB Pages.
  The website can be found at: https://varroz56.github.io/monkees-project/
 
-I crea
 
 ## Testing
 
