@@ -8,7 +8,7 @@ The website built for the fans of The Monkees band. Fans can view their photos v
 
 The website is really straightforward, the user can find everything in one click.
 
-##User stories:
+## User stories:
 
 ## User A wants to view the band's videos. 
  - Landing on the home page, A will see the gallery button, and on the gallery page will find the videos.
@@ -27,14 +27,14 @@ Every pages footer contains the social media links with their logo, so B needs t
  ## User E wants to go back to the home page.
  - User needs to click on the home button or the picture of the band.
 
-##The strategy, scope, skeleton planes are located in assets/user-design-experience folder.
+## The strategy, scope, skeleton planes are located in assets/user-design-experience folder.
 
-#Features
+# Features
 
-##Header:
+## Header:
 - Picture of the band works as a link to the Home page The 'The Monkees' logo comes up only on tablets or desktops( above 767px width). Navbar with hover on effects and navigation buttons with different colour and icons.
    
-##Main content:
+## Main content:
 
  - Same background colour as the navigation button.
  -     Home:
@@ -50,19 +50,19 @@ Every pages footer contains the social media links with their logo, so B needs t
        - -  If there is no empty field, 'message sent' message let the user know that the message sent.
  - The message is not sent to anyone and the message is not saved.
 
-##Footer:
+## Footer:
   -   The footer contains 5 links:
         Three navigate from the page to the social media pages, currently no link set on them.
         One brings the user to the hire us page.
         One opens up a modal to subscribe with a name and email address to a newsletter. When the user click on the sign up button the modal closes and another modal opens up to let the user know signed up successfully.
  - There is no action happens after.
        
-##Features left to implement
+## Features left to implement
 
  - There is no back-end procedure after the user submit a form.
  - Maybe an online shop page in the future would be good.
    
-##Technologies used
+## Technologies used
 - HTML5
 - CSS3
 - [Google fonts](https://fonts.google.com/)
@@ -82,16 +82,30 @@ Every pages footer contains the social media links with their logo, so B needs t
 - Bash
 - [GitHub](https://github.com/)
 
-##Deployment
+## Deployment
 
-Website was coded in VSCode IDE, a local GIT directory was used for version control and then uploaded to GITHUB using Ubuntu / Bash script. Once in a GITHUB repositories it was made live using GITHUB Pages. The website can be found at: https://varroz56.github.io/monkees-project/
+Website was coded in VSCode IDE, with a local folder. On Github I created a new repository called monkees-project. 
+to deploy the files to the repository i used the following bash commands:
+echo "# monkees-project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/varroz56/monkees-project.io
+git push -u origin master
 
-##Testing
+After uploading the files to GITHUB repositories I choosed a master branch to be online from GITHUB Pages.
+ The website can be found at: https://varroz56.github.io/monkees-project/
+
+I crea
+
+## Testing
 
 Each page was tested locally and on GITHUB pages using Chrome and Mozilla developer tools, testing its functionality as well as look and feel (in landscape and portrait mode) on Nexus 5S, Nexus 6P, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPad, iPad Pro, Galaxy Note 8, Mi Mix 2 and responsive desktop, also on Ms Edge, Firefox, Opera, and Chrome platforms. All links were tested along with music tracks audio controls and video player. 
 The modal join fan club form and the hire us form was tested locally and remotely.
 
-##Credits
+Got positive feedback from friends
+
+## Credits
 Work based on other code
 
 I chose to build the offered Monkees project, had inspiration from the Resume project for the layout.
@@ -100,8 +114,8 @@ For the form validation I used a [javascript code](https://github.com/twbs/boots
 
 For the modal I used the bootstrap modal edited version.
 
-##What changed after user design experience (UDX) phase
-
+## What changed after user design experience (UDX) phase
+I have changed the initial font-family to an easy-to-read Roboto and Ubuntu
 
  	
 	
