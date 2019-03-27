@@ -54,8 +54,8 @@ Every pages footer contains the social media links with their logo, so B needs t
   -   The footer contains 5 links:
         Three navigate from the page to the social media pages, currently no link set on them.
         One brings the user to the hire us page.
-        One opens up a modal to subscribe with a name and email address to a newsletter. When the user click on the sign up button the modal closes and another modal opens up to let the user know signed up successfully.
- - There is no action happens after.
+        One opens up a modal to subscribe with a name and email address to a newsletter. When the user clicks on the sign up button the modal closes and another modal opens up to let the user know signed up successfully.
+ - There is no action that happens after.
        
 ## Features left to implement
 
@@ -63,14 +63,14 @@ Every pages footer contains the social media links with their logo, so B needs t
  - Maybe an online shop page in the future would be good.
    
 ## Technologies used
-- HTML5
+- HTML5 
 - CSS3
 - [Google fonts](https://fonts.google.com/)
     To load the fonts used on the website.
 - [Font Awsome](https://fontawesome.com/)
     To load icons used on navbar and footer.
 - [Bootstrap](https://getbootstrap.com/)
-    Component library, eg grid system.
+    Component library, e.g. grid system.
 - [Jquery](https://jquery.com/)
 - [Javascript](https://www.javascript.com/)
     Used some code for the validation method at the form.
